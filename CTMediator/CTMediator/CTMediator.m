@@ -67,7 +67,8 @@
 {
     
     NSString *targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
-    NSString *actionString = [NSString stringWithFormat:@"Action_%@:", actionName];
+    //修改Action为action是为了代码规范
+    NSString *actionString = [NSString stringWithFormat:@"action_%@:", actionName];
     Class targetClass;
     
     NSObject *target = self.cachedTarget[targetClassString];

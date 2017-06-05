@@ -1,4 +1,5 @@
 CTMediator.xcworkspace/
+*.xcuserdatad
 Podfile.lock
 Pods/
 CTMediator.xcodeproj/project.xcworkspace/xcuserdata/
